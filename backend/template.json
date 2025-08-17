@@ -1,0 +1,143 @@
+{
+    "metadataA": {
+        "title": "The Scramble for Africa",
+        "author": "Graham Greene",
+        "cover": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAABgj/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdAHoK/9k="
+    },
+    "metadataB": {
+        "title": "La Ruée vers l'Afrique",
+        "author": "Graham Greene",
+        "cover": "data:image/jpeg;base64,..."
+    },
+    "frontMatter": [
+        [
+            "Préface en anglais...",
+            "Préface en français..."
+        ],
+        [
+            "Dédicace A",
+            "Dédicace B"
+        ]
+    ],
+    "chapters": [
+        {
+            "number": 1,
+            "titleA": "CHAPTER 1",
+            "titleB": "CHAPITRE 1",
+            "pairs": [],
+            "subchapters": [
+                {
+                    "titleA": "1.1",
+                    "titleB": "1.1",
+                    "pairs": [
+                        [
+                            "В Гороховой улице, в одном из больших домов, народонаселения которого стало бы на целый уездный город, лежал утром в постели, на своей квартире, Илья Ильич Обломов.",
+                            "Dans la rue des Pois, dans un des grands immeubles dont la population aurait suffi à occuper un chef-lieu de district, un matin, dans son appartement, Ilia Ilitch Oblomov était étendu sur son lit."
+                        ],
+                        [
+                            "Это был человек лет тридцати двух-трех от роду, среднего роста, приятной наружности, с темно-серыми глазами, но с отсутствием всякой определенной идеи, всякой сосредоточенности в чертах лица. Мысль гуляла вольной птицей по лицу, порхала в глазах, садилась на полуотворенные губы, пряталась в складках лба, потом совсем пропадала, и тогда во всем лице теплился ровный свет беспечности. С лица беспечность переходила в позы всего тела, даже в складки шлафрока.",
+                            "C'était un homme de trente-deux, trente-trois ans, de taille moyenne, à la physionomie agréable, aux yeux gris foncé ; cependant, toute idée particulière, toute concentration étaient absentes des traits de son visage. Comme un oiseau en liberté, la pensée parcourait ce visage, voltigeait dans les yeux, se posait sur les lèvres entrouvertes, se dissimulait dans les plis du front pour disparaître tout à fait : alors toute la face d'Ilia Ilitch s'irradiait d'une paisible lueur d'insouciance. De là, l'insouciance se communiquait aux mouvements du corps tout entier, jusque dans les plis de la robe de chambre."
+                        ],
+                        [
+                            "Иногда взгляд его помрачался выражением будто усталости или скуки; но ни усталость, ни скука не могли ни на минуту согнать с лица мягкость, которая была господствующим и основным выражением, не лица только, а всей души; а душа так открыто и ясно светилась в глазах, в улыбке, в каждом движении головы, руки. И поверхностно наблюдательный, холодный человек, взглянув мимоходом на Обломова, сказал бы: «Добряк должен быть, простота!» Человек поглубже и посимпатичнее, долго вглядываясь в лицо его, отошел бы в приятном раздумье, с улыбкой.",
+                            "Par moments son regard s'obscurcissait : était-ce de la fatigue ou de l'ennui ? Mais ni la fatigue, ni l'ennui ne pouvaient chasser de ce visage, ne fût-ce qu'un instant l'expression de douceur, qui dominait non seulement le visage mais aussi l'âme ; l'âme qui rayonnait, si ouverte et si limpide, dans les yeux, dans le sourire, dans chaque geste de la tête et de la main. Un observateur froid et superficiel, ayant jeté un regard en passant, aurait dit : « Sans doute une bonne pâte, la simplicité même ». Mais un homme plus profond et mieux disposé, après avoir observé son visage plus longtemps, l'aurait quitté en souriant, plongé dans des réflexions agréables."
+                        ]
+                    ]
+                },
+                {
+                    "titleA": "1.2",
+                    "titleB": "1.2",
+                    "pairs": [
+                        [
+                            "Цвет лица у Ильи Ильича не был ни румяный, ни смуглый, ни положительно бледный, а безразличный или казался таким, может быть, потому, что Обломов как-то обрюзг не по летам: от недостатка ли движения или воздуха, а может быть, того и другого. Вообще же тело его, судя по матовому, чересчур белому цвету шеи, маленьких пухлых рук, мягких плеч, казалось слишком изнеженным для мужчины.",
+                            "Le teint d'Ilia Ilitch n'était ni rose, ni hâlé, ni carrément pâle, mais indifférent ou, du moins, il le paraissait. Peut-être parce que la chair d'Oblomov était prématurément flasque : faute d'exercice ou manque d'air, peut-être l'un et l'autre. Son corps en général, à en juger par le teint mat, exagérément pâle du cou, des petites mains potelées, des épaules molles, paraissait trop efféminé."
+                        ],
+                        [
+                            "Движения его, когда он был даже встревожен, сдерживались также мягкостью и не лишенною своего рода грации ленью. Если на лицо набегала из души туча заботы, взгляд туманился, на лбу являлись складки, начиналась игра сомнений, печали, испуга; но редко тревога эта застывала в форме определенной идеи, еще реже превращалась в намерение. Вся тревога разрешалась вздохом и замирала в апатии или в дремоте.",
+                            "Était-il troublé, que cette même mollesse et une paresse non dénuées de grâce apportaient de la retenue à ses mouvements. Si une ombre de souci, remontant du fond de l'âme, passait sur son visage, son regard s'embrumait, son front se plissait : alors commençait un jeu de doutes, de tristesse et d'effroi ; mais cette inquiétude ne se traduisait que rarement sous la forme d'une idée particulière, encore plus rarement elle devenait intention. Toute cette anxiété se dissipait en un soupir, puis se figeait, apathie ou somnolence."
+                        ],
+                        [
+                            "Как шел домашний костюм Обломова к покойным чертам лица его и к изнеженному телу! На нем был халат из персидской материи, настоящий восточный халат, без малейшего намека на Европу, без кистей, без бархата, без талии, весьма поместительный, так что и Обломов мог дважды завернуться в него. Рукава, по неизменной азиатской моде, шли от пальцев к плечу все шире и шире. Хотя халат этот и утратил свою первоначальную свежесть и местами заменил свой первобытный, естественный лоск другим, благоприобретенным, но все еще сохранял яркость восточной краски и прочность ткани.",
+                            "Comme la tenue d'intérieur d'Oblomov seyait aux traits calmes de son visage et à son corps efféminé ! Il portait une robe de chambre en étoffe de Perse, une vraie robe de chambre orientale, où rien ne rappelait l'Europe, sans glands, sans velours, sans taille, si ample qu'Oblomov aurait pu s'en envelopper deux fois. Selon l'immuable mode asiatique, les manches allaient en s'élargissant, des doigts jusqu'à l'épaule. Bien que cette robe de chambre eût perdu de sa fraîcheur primitive, bien qu'elle eût remplacé par endroits son éclat d'origine par un lustre honorablement acquis, elle n'en gardait pas moins la vivacité de la couleur orientale et la solidité de son tissu."
+                        ],
+                        [
+                            "Халат имел в глазах Обломова тьму неоцененных достоинств: он мягок, гибок; тело не чувствует его на себе; он, как послушный раб, покоряется самомалейшему движению тела.",
+                            "Aux yeux d'Oblomov cette robe de chambre avait une foule de qualités inappréciables : elle était douce, souple, ne pesait pas sur le corps ; telle une esclave docile, elle se pliait au moindre mouvement."
+                        ],
+                        [
+                            "Обломов всегда ходил дома без галстука и без жилета, потому что любил простор и приволье. Туфли на нем были длинные, мягкие и широкие; когда он, не глядя, опускал ноги с постели на пол, то непременно попадал в них сразу.",
+                            "Chez lui, Oblomov ne portait jamais ni cravate ni gilet ; il aimait être à l'aise, se sentir libre. Ses pantoufles étaient longues, moelleuses et larges. Quand, assis sur son lit, il laissait pendre ses jambes, immanquablement, sans qu'il eût même à regarder, ses pieds s'y glissaient tout seuls."
+                        ],
+                        [
+                            "Лежанье у Ильи Ильича не было ни необходимостью, как у больного или как у человека, который хочет спать, ни случайностью, как у того, кто устал, ни наслаждением, как у лентяя: это было его нормальным состоянием. Когда он был дома – а он был почти всегда дома, – он все лежал, и все постоянно в одной комнате, где мы его нашли, служившей ему спальней, кабинетом и приемной. У него было еще три комнаты, но он редко туда заглядывал, утром разве, и то не всякий день, когда человек мел кабинет его, чего всякий день не делалось. В трех комнатах мебель закрыта была чехлами, шторы спущены.",
+                            "La position allongée n'était pour Ilia Ilitch ni nécessaire, comme pour un malade ou pour un homme qui veut dormir, ni accidentelle, comme pour une personne fatiguée, ni voluptueuse comme chez le fainéant ; c'était son état normal. Quand il était à la maison – et il y était presque toujours – il demeurait couché, et toujours dans cette chambre où nous l'avons trouvé, qui lui servait de chambre à coucher, de cabinet et de salon. Il était rare qu'il mît les pieds dans les trois autres pièces : le matin, et encore, seulement lorsque son valet balayait sa chambre, ce qui n'arrivait pas tous les jours. Dans ces pièces, les meubles étaient recouverts de housses, les tentures étaient baissées."
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 2,
+            "titleA": "CHAPTER 2",
+            "titleB": "CHAPITRE 2",
+            "pairs": [],
+            "subchapters": [
+                {
+                    "titleA": "2.1",
+                    "titleB": "2.1",
+                    "pairs": [
+                        [
+                            "В Гороховой улице, в одном из больших домов, народонаселения которого стало бы на целый уездный город, лежал утром в постели, на своей квартире, Илья Ильич Обломов.",
+                            "Dans la rue des Pois, dans un des grands immeubles dont la population aurait suffi à occuper un chef-lieu de district, un matin, dans son appartement, Ilia Ilitch Oblomov était étendu sur son lit."
+                        ],
+                        [
+                            "Это был человек лет тридцати двух-трех от роду, среднего роста, приятной наружности, с темно-серыми глазами, но с отсутствием всякой определенной идеи, всякой сосредоточенности в чертах лица. Мысль гуляла вольной птицей по лицу, порхала в глазах, садилась на полуотворенные губы, пряталась в складках лба, потом совсем пропадала, и тогда во всем лице теплился ровный свет беспечности. С лица беспечность переходила в позы всего тела, даже в складки шлафрока.",
+                            "C'était un homme de trente-deux, trente-trois ans, de taille moyenne, à la physionomie agréable, aux yeux gris foncé ; cependant, toute idée particulière, toute concentration étaient absentes des traits de son visage. Comme un oiseau en liberté, la pensée parcourait ce visage, voltigeait dans les yeux, se posait sur les lèvres entrouvertes, se dissimulait dans les plis du front pour disparaître tout à fait : alors toute la face d'Ilia Ilitch s'irradiait d'une paisible lueur d'insouciance. De là, l'insouciance se communiquait aux mouvements du corps tout entier, jusque dans les plis de la robe de chambre."
+                        ],
+                        [
+                            "Иногда взгляд его помрачался выражением будто усталости или скуки; но ни усталость, ни скука не могли ни на минуту согнать с лица мягкость, которая была господствующим и основным выражением, не лица только, а всей души; а душа так открыто и ясно светилась в глазах, в улыбке, в каждом движении головы, руки. И поверхностно наблюдательный, холодный человек, взглянув мимоходом на Обломова, сказал бы: «Добряк должен быть, простота!» Человек поглубже и посимпатичнее, долго вглядываясь в лицо его, отошел бы в приятном раздумье, с улыбкой.",
+                            "Par moments son regard s'obscurcissait : était-ce de la fatigue ou de l'ennui ? Mais ni la fatigue, ni l'ennui ne pouvaient chasser de ce visage, ne fût-ce qu'un instant l'expression de douceur, qui dominait non seulement le visage mais aussi l'âme ; l'âme qui rayonnait, si ouverte et si limpide, dans les yeux, dans le sourire, dans chaque geste de la tête et de la main. Un observateur froid et superficiel, ayant jeté un regard en passant, aurait dit : « Sans doute une bonne pâte, la simplicité même ». Mais un homme plus profond et mieux disposé, après avoir observé son visage plus longtemps, l'aurait quitté en souriant, plongé dans des réflexions agréables."
+                        ]
+                    ]
+                },
+                {
+                    "titleA": "2.2",
+                    "titleB": "2.2",
+                    "pairs": [
+                        [
+                            "Цвет лица у Ильи Ильича не был ни румяный, ни смуглый, ни положительно бледный, а безразличный или казался таким, может быть, потому, что Обломов как-то обрюзг не по летам: от недостатка ли движения или воздуха, а может быть, того и другого. Вообще же тело его, судя по матовому, чересчур белому цвету шеи, маленьких пухлых рук, мягких плеч, казалось слишком изнеженным для мужчины.",
+                            "Le teint d'Ilia Ilitch n'était ni rose, ni hâlé, ni carrément pâle, mais indifférent ou, du moins, il le paraissait. Peut-être parce que la chair d'Oblomov était prématurément flasque : faute d'exercice ou manque d'air, peut-être l'un et l'autre. Son corps en général, à en juger par le teint mat, exagérément pâle du cou, des petites mains potelées, des épaules molles, paraissait trop efféminé."
+                        ],
+                        [
+                            "Движения его, когда он был даже встревожен, сдерживались также мягкостью и не лишенною своего рода грации ленью. Если на лицо набегала из души туча заботы, взгляд туманился, на лбу являлись складки, начиналась игра сомнений, печали, испуга; но редко тревога эта застывала в форме определенной идеи, еще реже превращалась в намерение. Вся тревога разрешалась вздохом и замирала в апатии или в дремоте.",
+                            "Était-il troublé, que cette même mollesse et une paresse non dénuées de grâce apportaient de la retenue à ses mouvements. Si une ombre de souci, remontant du fond de l'âme, passait sur son visage, son regard s'embrumait, son front se plissait : alors commençait un jeu de doutes, de tristesse et d'effroi ; mais cette inquiétude ne se traduisait que rarement sous la forme d'une idée particulière, encore plus rarement elle devenait intention. Toute cette anxiété se dissipait en un soupir, puis se figeait, apathie ou somnolence."
+                        ],
+                        [
+                            "Как шел домашний костюм Обломова к покойным чертам лица его и к изнеженному телу! На нем был халат из персидской материи, настоящий восточный халат, без малейшего намека на Европу, без кистей, без бархата, без талии, весьма поместительный, так что и Обломов мог дважды завернуться в него. Рукава, по неизменной азиатской моде, шли от пальцев к плечу все шире и шире. Хотя халат этот и утратил свою первоначальную свежесть и местами заменил свой первобытный, естественный лоск другим, благоприобретенным, но все еще сохранял яркость восточной краски и прочность ткани.",
+                            "Comme la tenue d'intérieur d'Oblomov seyait aux traits calmes de son visage et à son corps efféminé ! Il portait une robe de chambre en étoffe de Perse, une vraie robe de chambre orientale, où rien ne rappelait l'Europe, sans glands, sans velours, sans taille, si ample qu'Oblomov aurait pu s'en envelopper deux fois. Selon l'immuable mode asiatique, les manches allaient en s'élargissant, des doigts jusqu'à l'épaule. Bien que cette robe de chambre eût perdu de sa fraîcheur primitive, bien qu'elle eût remplacé par endroits son éclat d'origine par un lustre honorablement acquis, elle n'en gardait pas moins la vivacité de la couleur orientale et la solidité de son tissu."
+                        ],
+                        [
+                            "Халат имел в глазах Обломова тьму неоцененных достоинств: он мягок, гибок; тело не чувствует его на себе; он, как послушный раб, покоряется самомалейшему движению тела.",
+                            "Aux yeux d'Oblomov cette robe de chambre avait une foule de qualités inappréciables : elle était douce, souple, ne pesait pas sur le corps ; telle une esclave docile, elle se pliait au moindre mouvement."
+                        ],
+                        [
+                            "Обломов всегда ходил дома без галстука и без жилета, потому что любил простор и приволье. Туфли на нем были длинные, мягкие и широкие; когда он, не глядя, опускал ноги с постели на пол, то непременно попадал в них сразу.",
+                            "Chez lui, Oblomov ne portait jamais ni cravate ni gilet ; il aimait être à l'aise, se sentir libre. Ses pantoufles étaient longues, moelleuses et larges. Quand, assis sur son lit, il laissait pendre ses jambes, immanquablement, sans qu'il eût même à regarder, ses pieds s'y glissaient tout seuls."
+                        ],
+                        [
+                            "Лежанье у Ильи Ильича не было ни необходимостью, как у больного или как у человека, который хочет спать, ни случайностью, как у того, кто устал, ни наслаждением, как у лентяя: это было его нормальным состоянием. Когда он был дома – а он был почти всегда дома, – он все лежал, и все постоянно в одной комнате, где мы его нашли, служившей ему спальней, кабинетом и приемной. У него было еще три комнаты, но он редко туда заглядывал, утром разве, и то не всякий день, когда человек мел кабинет его, чего всякий день не делалось. В трех комнатах мебель закрыта была чехлами, шторы спущены.",
+                            "La position allongée n'était pour Ilia Ilitch ni nécessaire, comme pour un malade ou pour un homme qui veut dormir, ni accidentelle, comme pour une personne fatiguée, ni voluptueuse comme chez le fainéant ; c'était son état normal. Quand il était à la maison – et il y était presque toujours – il demeurait couché, et toujours dans cette chambre où nous l'avons trouvé, qui lui servait de chambre à coucher, de cabinet et de salon. Il était rare qu'il mît les pieds dans les trois autres pièces : le matin, et encore, seulement lorsque son valet balayait sa chambre, ce qui n'arrivait pas tous les jours. Dans ces pièces, les meubles étaient recouverts de housses, les tentures étaient baissées."
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
+    "endMatter": [
+        [
+            "Notes en A",
+            "Notes en B"
+        ],
+        []
+    ]
+}

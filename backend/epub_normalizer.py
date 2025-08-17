@@ -289,9 +289,9 @@ def generate_static_json(bookA_path, bookB_path, output_json_path):
 # Exemple d'utilisation (exécutez offline)
 if __name__ == "__main__":
     # Remplacez par vos chemins ePub
-    bookA = 'EC1-RAW-EN.epub'  # Ex. anglais
-    bookB = 'EC1-RAW-FR.epub'  # Ex. français
-    output = 'EC1-RAW-EN_FR.json'
+    bookA = 'Gontcharov_Oblomov_RAW_RU_XS.epub'  # Ex. anglais
+    bookB = 'Gontcharov_Oblomov_RAW_FR_XS.epub'  # Ex. français
+    output = 'Gontcharov_Oblomov_RU_FR.json'
     
     generate_static_json(bookA, bookB, output)
     
