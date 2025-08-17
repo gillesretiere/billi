@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-nav .nav-link {
+  color: #333;
+}
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+.nav-item .nav-link {
+  padding-left: 1.5rem;
+}
+.navbar-collapse {
+  max-height: 80vh;
+  overflow-y: auto;
+}
+.card-body {
+  border-bottom: 1px solid #eee;
+}
+.navbar-brand {
+  font-weight: bold;
+}
