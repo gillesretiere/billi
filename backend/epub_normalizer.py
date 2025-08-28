@@ -160,6 +160,7 @@ def alignment_cost(l1, l2, match_type):
 
     return -np.log(p_delta_match * prior)
 
+
 def align_paragraphs(paraA, paraB):
     """
     Aligne les paragraphes en utilisant Gale-Church.
@@ -289,9 +290,9 @@ def generate_static_json(bookA_path, bookB_path, output_json_path):
 # Exemple d'utilisation (exécutez offline)
 if __name__ == "__main__":
     # Remplacez par vos chemins ePub
-    bookA = 'Gontcharov_Oblomov_RAW_RU_XS.epub'  # Ex. anglais
-    bookB = 'Gontcharov_Oblomov_RAW_FR_XS.epub'  # Ex. français
-    output = 'Gontcharov_Oblomov_RU_FR.json'
+    bookA = 'Blaue Nacht-CH-01-06 - Buchholz, Simone.epub'  # Ex. anglais
+    bookB = 'Nuit bleue-CH-01-06 - Simone Buchholz.epub'  # Ex. français
+    output = 'Blaue Nacht-Nuit bleue - Simone Buchholz_DE_FR.json'
     
     generate_static_json(bookA, bookB, output)
     

@@ -31,8 +31,8 @@
                     "titleB": "1.1",
                     "pairs": [
                         [
-                            "В Гороховой улице, в одном из больших домов, народонаселения которого стало бы на целый уездный город, лежал утром в постели, на своей квартире, Илья Ильич Обломов.",
-                            "Dans la rue des Pois, dans un des grands immeubles dont la population aurait suffi à occuper un chef-lieu de district, un matin, dans son appartement, Ilia Ilitch Oblomov était étendu sur son lit."
+                            "В Гороховой улице, в одном из больших домов, народонаселения которого стало бы на целый уездный город, лежал утром в постели, на своей квартире, <b>Илья Ильич Обломов.</b>",
+                            "Dans la rue des Pois, dans un des grands immeubles dont la population aurait suffi à occuper un chef-lieu de district, un matin, dans son appartement, <span class='someClass'>Ilia Ilitch Oblomov</span>&nbsp;était étendu sur son lit."
                         ],
                         [
                             "Это был человек лет тридцати двух-трех от роду, среднего роста, приятной наружности, с темно-серыми глазами, но с отсутствием всякой определенной идеи, всякой сосредоточенности в чертах лица. Мысль гуляла вольной птицей по лицу, порхала в глазах, садилась на полуотворенные губы, пряталась в складках лба, потом совсем пропадала, и тогда во всем лице теплился ровный свет беспечности. С лица беспечность переходила в позы всего тела, даже в складки шлафрока.",

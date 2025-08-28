@@ -3,33 +3,16 @@ import parse from 'html-react-parser';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
+
 function App() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const sectionRefs = useRef({});
   const selectedBook = 'bb_002_20250828_blauenacht-buchholz-de-fr';
 
-  // Déclaration de la fonction f(id)
   const f = (id) => {
     alert(`Clicked on element with id: ${id}`);
-    // Ajoutez ici votre logique personnalisée, ex. ouvrir une modale, enregistrer l'ID, etc.
-  };
-
-  useEffect(() => {
-    fetch(`/data/books/${selectedBook}/json/${selectedBook}.json`)
-      .then(response => response.json())
-      .then(jsonData => {
-        setData(jsonData);
-        setLoading(false);
-      })
-      .catch(error => console.error('Erreur de chargement:', error));
-  }, []);
-
-  const scrollToSection = (id) => {
-    const element = sectionRefs.current[id];
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+    // Vous pouvez ajouter d'autres logiques ici, ex. ouvrir une modale, enregistrer l'ID, etc.
   };
 
   // Fonction pour parser le HTML et attacher onClick
@@ -49,6 +32,23 @@ function App() {
         }
       }
     });
+  };
+
+  useEffect(() => {
+    fetch(`/data/books/${selectedBook}/json/${selectedBook}.json`)
+      .then(response => response.json())
+      .then(jsonData => {
+        setData(jsonData);
+        setLoading(false);
+      })
+      .catch(error => console.error('Erreur de chargement:', error));
+  }, []);
+
+  const scrollToSection = (id) => {
+    const element = sectionRefs.current[id];
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   };
 
   if (loading) return <div className="text-center my-5">Chargement...</div>;
@@ -128,7 +128,7 @@ function App() {
             <div className="col-auto mx-2">
               <img
                 src={data.metadataA.cover}
-                alt={data.metadataA.altText || `Couverture ${data.metadataA.title}`}
+                alt={`Couverture ${data.metadataA.title}`}
                 style={{ width: '200px', height: 'auto' }}
                 className="img-thumbnail"
               />
@@ -139,7 +139,7 @@ function App() {
             <div className="col-auto mx-2">
               <img
                 src={data.metadataB.cover}
-                alt={data.metadataB.altText || `Couverture ${data.metadataB.title}`}
+                alt={`Couverture ${data.metadataB.title}`}
                 style={{ width: '200px', height: 'auto' }}
                 className="img-thumbnail"
               />
@@ -147,7 +147,8 @@ function App() {
             </div>
           )}
         </div>
-                {/* Front Matter */}
+
+        {/* Front Matter */}
         {data.frontMatter && data.frontMatter.length > 0 && (
           <section
             id="front-matter"
@@ -158,15 +159,15 @@ function App() {
             {data.frontMatter.map(([langA, langB], index) => (
               <div key={`front-${index}`} className="mb-3">
                 <div className="card-body">
-                  <p className="card-text p-2 mb-2">{parseHtmlWithClick(langA)}</p>
-                  <p className="card-text bg-primary bg-opacity-10 text-primary text-opacity-75 p-2">{parseHtmlWithClick(langB)}</p>
+                  <p className="card-text p-2 mb-2">{langA}</p>
+                  <p className="card-text bg-primary bg-opacity-10 text-primary text-opacity-75 p-2">{langB}</p>
                 </div>
               </div>
             ))}
           </section>
         )}
 
-                {/* Chapters */}
+        {/* Chapters */}
         {data.chapters && data.chapters.length > 0 && (
           <section>
             {data.chapters.map((chapter, chapIndex) => (
@@ -176,20 +177,21 @@ function App() {
                 ref={(el) => (sectionRefs.current[`chapter-${chapIndex}`] = el)}
                 className="mb-4"
               >
-                <h2 className="mb-3 chapterA">
+                <h2 className="mb-3">
                   {chapter.titleA}
                 </h2>
-                <h2 className="mb-3 chapterB">
+                <h2 className="mb-3 bg-opacity-10 text-primary text-opacity-75">
                   {chapter.titleB}
                 </h2>
                 {/* Pairs du chapitre principal */}
                 {chapter.pairs && chapter.pairs.length > 0 && (
                   <>
                     {chapter.pairs.map(([langA, langB], pairIndex) => (
-                      <div key={`chapter-pair-${chapIndex}-${pairIndex}`} className="mb-3 container">
-                        <div className="card-body row row-cols-2">
-                          <p className="card-text col p-2 mb-2 main-text fs-5 border-start border-5 border-warning bg-warning bg-opacity-10">{parseHtmlWithClick(langA)}</p>
-                          <p className="card-text col main-text-B p-2 mb-2 fs-5 border-start border-5 border-info bg-info bg-opacity-10">{parseHtmlWithClick(langB)}</p>
+                      <div key={`chapter-pair-${chapIndex}-${pairIndex}`} className="mb-3 main-text">
+                        <div className="card-body">
+                          <p className="card-text p-2 mb-2 text-black fs-4" { parseHtmlWithClick(langA) } />
+                          <p className="card-text p-2 mb-2 text-black fs-4" dangerouslySetInnerHTML={{ __html: langA }} />
+                          <p className="card-text bg-opacity-10 text-black text-opacity-75 fs-5 p-2" dangerouslySetInnerHTML={{ __html: langB }} />
                         </div>
                       </div>
                     ))}
@@ -207,15 +209,18 @@ function App() {
                         className="ms-4 mb-3"
                       >
                         <h3 className="mb-2">
-                          {subchapter.titleA} / {subchapter.titleB}
+                          {subchapter.titleA}
+                        </h3>
+                        <h3 className="mb-2">
+                          {subchapter.titleB}
                         </h3>
                         {subchapter.pairs && subchapter.pairs.length > 0 && (
                           <>
                             {subchapter.pairs.map(([langA, langB], subPairIndex) => (
                               <div key={`sub-pair-${chapIndex}-${subIndex}-${subPairIndex}`} className="mb-3">
                                 <div className="card-body">
-                                  <p className="card-text p-2 mb-2">{parseHtmlWithClick(langA)}</p>
-                                  <p className="card-text bg-primary bg-opacity-10 text-primary text-opacity-75 p-2">{parseHtmlWithClick(langB)}</p>
+                                  <p className="card-text p-2 mb-2 text-red-500" dangerouslySetInnerHTML={{ __html: langA }} />
+                                  <p className="card-text bg-opacity-10 text-primary text-opacity-75 p-2" dangerouslySetInnerHTML={{ __html: langB }} />
                                 </div>
                               </div>
                             ))}
@@ -241,14 +246,13 @@ function App() {
             {data.endMatter.map(([langA, langB], index) => (
               <div key={`end-${index}`} className="mb-3">
                 <div className="card-body">
-                  <p className="card-text p-2 mb-2">{parseHtmlWithClick(langA)}</p>
-                  <p className="card-text bg-primary bg-opacity-10 text-primary text-opacity-75 p-2">{parseHtmlWithClick(langB)}</p>
+                  <p className="card-text p-2 mb-2">{langA}</p>
+                  <p className="card-text bg-primary bg-opacity-10 text-primary text-opacity-75 p-2">{langB}</p>
                 </div>
               </div>
             ))}
           </section>
         )}
-
       </div>
     </div>
   );

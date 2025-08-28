@@ -2,12 +2,28 @@
     "metadataA": {
         "title": "The Scramble for Africa",
         "author": "Graham Greene",
-        "cover": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAABgj/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdAHoK/9k="
+        "cover": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAABgj/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdAHoK/9k=",
+        "altText": "",
+        "subTitle": "",
+        "publisherName": "",
+        "publisherCity": "",
+        "publisherLogo": "",
+        "copyright": "",
+        "isbn": "",
+        "language": "en"
     },
     "metadataB": {
         "title": "La Ruée vers l'Afrique",
         "author": "Graham Greene",
-        "cover": "data:image/jpeg;base64,..."
+        "cover": "data:image/jpeg;base64,...",
+        "altText": "",
+        "subTitle": "",
+        "publisherName": "",
+        "publisherCity": "",
+        "publisherLogo": "",
+        "copyright": "",
+        "isbn": "",
+        "language": "fr"
     },
     "frontMatter": [
         [

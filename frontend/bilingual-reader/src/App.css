@@ -32,6 +32,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -40,22 +41,70 @@
 .navbar {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .navbar-nav .nav-link {
   color: #333;
 }
+
 .navbar-nav .nav-link:hover {
   color: #007bff;
 }
+
 .nav-item .nav-link {
   padding-left: 1.5rem;
 }
+
 .navbar-collapse {
   max-height: 80vh;
   overflow-y: auto;
 }
+
 .card-body {
-  border-bottom: 1px solid #eee;
+  border-bottom: 0px solid #eee;
 }
+
 .navbar-brand {
   font-weight: bold;
+  font-family: "articulat-cf", Arial, Helvetica, sans-serif;
+}
+
+.someClass {
+  font-weight: bold;
+  background-color: #ffeb3b;
+  /* Jaune clair pour surlignage */
+  padding: 2px 4px;
+  border-radius: 3px;
+  cursor: pointer;
+  /* Indique que le span est cliquable */
+}
+
+.someClass:hover {
+  background-color: #ffd700;
+  /* Jaune plus foncé au survol */
+}
+
+.chapterA {
+  font-weight: bold;
+  font-family: "articulat-cf", Arial, Helvetica, sans-serif;
+}
+
+.chapterB {
+  font-weight: bold;
+  font-family: "articulat-cf", Arial, Helvetica, sans-serif;
+  color: #007bff;
+}
+
+.header-navbar-brand {
+  font-family: "articulat-cf", Arial, Helvetica, sans-serif;
+  color: #007bff;
+}
+
+.main-text {
+  font-family: "artifex-cf", Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-text-B {
+  font-family: "artifex-cf", Georgia, 'Times New Roman', Times, serif;
+  color: #222222;
+  opacity: .9;
 }
