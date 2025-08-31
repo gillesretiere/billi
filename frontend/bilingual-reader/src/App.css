@@ -59,6 +59,12 @@
   overflow-y: auto;
 }
 
+.footer {
+  height: 12vh;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  vertical-align: center;
+}
+
 .card-body {
   border-bottom: 0px solid #eee;
 }
@@ -91,7 +97,6 @@
 .chapterB {
   font-weight: bold;
   font-family: "articulat-cf", Arial, Helvetica, sans-serif;
-  color: #007bff;
 }
 
 .header-navbar-brand {
@@ -107,4 +112,19 @@
   font-family: "artifex-cf", Georgia, 'Times New Roman', Times, serif;
   color: #222222;
   opacity: .9;
+}
+
+.main-text, .main-text-B {
+  cursor: pointer; /* Indique que le paragraphe est cliquable */
+  transition: background-color 0.3s;
+}
+.main-text:hover {
+  background-color: #fff3cd; /* Jaune pâle au survol */
+}
+.main-text-B:hover {
+  background-color: #cff4fc; /* Bleu pâle au survol */
+}
+.selected {
+  background-color: #ffeeba !important; /* Surlignage pour le paragraphe sélectionné */
+  border-color: #ffca2c !important;
 }
